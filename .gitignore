@@ -1,0 +1,16 @@
+# build output and local settings
+/build/
+/config.mk
+__pycache__/
+*.pyc
+
+# never commit the original game files
+*.EXE
+*.exe
+*.HLP
+*.hlp
+*.cwg
+*.DLL
+CASTLE.INI
+cotw-port.log
+dsdump*.bin

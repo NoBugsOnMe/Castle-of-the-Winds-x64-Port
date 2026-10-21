@@ -1,0 +1,31 @@
+// Castle of the Winds Part 1: A Question of Vengeance - Windows 10 port
+1 ICON "castle1.ico"
+NEIMAGE RCDATA "neimage1.bin"
+HELPDATA RCDATA "help1.bin"
+NENAME RCDATA { "CASTLE1.EXE" }
+1 24 "cotw.manifest"
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEOS 0x40004
+FILETYPE 1
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "040904B0"
+    {
+      VALUE "CompanyName", "Castle of the Winds by Rick Saada (freeware). Win32/Win64 port."
+      VALUE "FileDescription", "Castle of the Winds - Part 1: A Question of Vengeance"
+      VALUE "FileVersion", "1.0.0.0"
+      VALUE "InternalName", "CASTLE1"
+      VALUE "OriginalFilename", "CASTLE1.EXE"
+      VALUE "ProductName", "Castle of the Winds (Windows 10 port)"
+      VALUE "ProductVersion", "1.0.0.0"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x0409, 1200
+  }
+}

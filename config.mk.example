@@ -1,0 +1,7 @@
+# Copy to config.mk and adjust the paths (see README.md, "Building").
+# WINE_SRC: Wine source tree (headers, .spec files)
+# WINE_BUILD: configured Wine build tree (generated headers)
+# GAME_DIR: folder with CASTLE1.EXE, CASTLE2.EXE, CASTLE1.HLP, CASTLE2.HLP
+WINE_SRC   = /path/to/wine
+WINE_BUILD = /path/to/wine-build
+GAME_DIR   = /path/to/CotW
