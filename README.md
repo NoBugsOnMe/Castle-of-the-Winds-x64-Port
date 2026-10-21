@@ -12,10 +12,6 @@ large screens, pixel-art upscaling, dark mode, player and enemy health bars,
 stats in the title bar, weapon class / armor value in the item popups, and a
 built-in help viewer.
 
-This repository holds the port's source code only. It contains **none of the
-original game files**; building requires your own copies of `CASTLE1.EXE`,
-`CASTLE2.EXE`, `CASTLE1.HLP` and `CASTLE2.HLP`.
-
 ## How it works
 
 The build produces `CASTLE1.EXE` and `CASTLE2.EXE`, native 64-bit Windows
